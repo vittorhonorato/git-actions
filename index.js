@@ -9,3 +9,5 @@ function insereUsers(user) {
 insereUsers("Vitor")
 insereUsers("Vitor")
 insereUsers("Vitor")
+
+console.log("tmj")
