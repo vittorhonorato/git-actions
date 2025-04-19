@@ -6,8 +6,8 @@ function insereUsers(user) {
     console.log(users)
 };
 
-insereUsers("Vitor")
-insereUsers("Vitor")
-insereUsers("Vitor")
+insereUsers("Vitor");
+insereUsers("Vitor");
+insereUsers("Vitor");
 
-console.log("tmj")
+console.log("tmj");
