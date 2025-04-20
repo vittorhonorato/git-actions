@@ -1,0 +1,13 @@
+name: GitHub Actions Demo
+run-name: Bem vindo ao test
+on:
+    push:
+        branches: [main]
+    pull_request:
+        branches: [main]
+jobs: 
+    Explore-Git-Hub-Actions:
+        runs-on: ubuntu-latest
+        steps:
+        - run: npm init
+        - run: npm install
