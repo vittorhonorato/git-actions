@@ -5,6 +5,7 @@ jobs:
     Explore-Git-Hub-Actions:
         runs-on: ubuntu-latest
         steps:
+        - run: npm init
         - run: npm install
 
 # name: GitHub Actions Demo
