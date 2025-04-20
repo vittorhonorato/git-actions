@@ -1,13 +1,9 @@
-let users = [];
+async function fetchData() {
+    const response = await fetch("https://jsonplaceholder.typicode.com/photos");
+    const data = await response.json();
 
-function insereUsers(user) {
+    console.log(data);
+    return data;
+}
 
-    users.push(user);
-    console.log(users)
-};
-
-insereUsers("Vitor");
-insereUsers("Vitor");
-insereUsers("Vitor");
-
-console.log("tmj");
+fetchData()
