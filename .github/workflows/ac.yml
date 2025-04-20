@@ -20,5 +20,7 @@ jobs:
                 node-version: 18.x
 
             - name: Inicialize Node
-              run: npm init
+              run: |
+               npm init
+               npm install
 
