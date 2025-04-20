@@ -23,4 +23,7 @@ jobs:
               run: |
                npm init
                npm install
+            
+            - name: Install Express
+              run: npm install express
 
