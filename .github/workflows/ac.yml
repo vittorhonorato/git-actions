@@ -2,8 +2,7 @@ name: GitHub Actions Demo
 run-name: Bem vindo ao test
 on:
     push:
-        branches:
-            -main
+        branches: [main]
 jobs: 
     Explore-Git-Hub-Actions:
         runs-on: ubuntu-latest
